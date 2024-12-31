@@ -1,0 +1,1823 @@
+{
+  "detection_model": "custom_paddle_detection",
+  "recognition_model": "Microsoft/TrOCR",
+  "ocr_accuracy": 0.5711973716127139,
+  "standard_deviation": 0.2698266503024897,
+  "detection_accuracy": 0.878551686756574,
+  "evaluation": [
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "=> Explanation :",
+          "predicted_value": "3. Emblemation.",
+          "similarity_ratio": 0.5161290322580645,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Simple As Possible - 2  (SAP-2)  consists of Bi-",
+          "predicted_value": "Simple to possible-& AskAP-also consists of B.",
+          "similarity_ratio": 0.723404255319149,
+          "detected": 1
+        },
+        {
+          "ground_truth": "directional Registers . It also includes jump instructions.",
+          "predicted_value": "All the register outputs - to it has bus are those",
+          "similarity_ratio": 0.44036697247706424,
+          "detected": 1
+        },
+        {
+          "ground_truth": "All the register outputs to W bus bus are three-",
+          "predicted_value": "All the register outputs - to it has bus are those",
+          "similarity_ratio": 0.8571428571428571,
+          "detected": 1
+        },
+        {
+          "ground_truth": "states ; these not connected to the bus are two-",
+          "predicted_value": "states ; those, not \" connected to the bus are two",
+          "similarity_ratio": 0.9387755102040817,
+          "detected": 1
+        },
+        {
+          "ground_truth": "states .",
+          "predicted_value": "slakes.",
+          "similarity_ratio": 0.6666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "(1) Hexadecimal Keyboard Input :",
+          "predicted_value": "MRHennadasimal KeyboardInput :",
+          "similarity_ratio": 0.7741935483870968,
+          "detected": 1
+        },
+        {
+          "ground_truth": "This bloch is used to insert the h  adecimal",
+          "predicted_value": "This block is used to insert the fundamental",
+          "similarity_ratio": 0.8181818181818182,
+          "detected": 1
+        },
+        {
+          "ground_truth": "number into the program .",
+          "predicted_value": "number into the program",
+          "similarity_ratio": 0.9583333333333334,
+          "detected": 1
+        },
+        {
+          "ground_truth": "(2) Input Ports:",
+          "predicted_value": "( a ) buyout. Parks. \"",
+          "similarity_ratio": 0.47368421052631576,
+          "detected": 1
+        },
+        {
+          "ground_truth": "SAP-2 consists of 2 input ports numbered ; 1 &",
+          "predicted_value": "SAP-2, consists of 2 input parts numbered ; 1&",
+          "similarity_ratio": 0.9565217391304348,
+          "detected": 1
+        },
+        {
+          "ground_truth": "2. The Hexadecimal keyboard encoder connected to port",
+          "predicted_value": "& The Presidential keyboard encother connected to post",
+          "similarity_ratio": 0.822429906542056,
+          "detected": 1
+        },
+        {
+          "ground_truth": "1 sends Ready signal to bit 0 of port 2. This",
+          "predicted_value": "\" sends Ready signal to kit 0 of part 2. This",
+          "similarity_ratio": 0.9333333333333333,
+          "detected": 1
+        },
+        {
+          "ground_truth": "signal further indicates when the data in port 1 is",
+          "predicted_value": "\" sends Ready signal to kit 0 of part 2. This",
+          "similarity_ratio": 0.4375,
+          "detected": 1
+        },
+        {
+          "ground_truth": "valid , the SERIAL IN , signal going to pin 7 or in",
+          "predicted_value": "valid ; the SERIAL IN, signal going to pin? on in",
+          "similarity_ratio": 0.92,
+          "detected": 1
+        },
+        {
+          "ground_truth": "port 2.",
+          "predicted_value": "port 2",
+          "similarity_ratio": 0.9230769230769231,
+          "detected": 1
+        },
+        {
+          "ground_truth": "(3) Program Counter(PC):",
+          "predicted_value": "( 3 ) Program Counties ( PC ) :",
+          "similarity_ratio": 0.8363636363636363,
+          "detected": 1
+        },
+        {
+          "ground_truth": "PC has 16 bits . So , it can count from ;",
+          "predicted_value": "\" so has 16 bits. do, it can count from,",
+          "similarity_ratio": 0.8395061728395061,
+          "detected": 1
+        },
+        {
+          "ground_truth": "PC = 0000  0000  0000  0000  to  PC= 1111 1111 1111 1111 .",
+          "predicted_value": "\" sends Ready signal to kit 0 of part 2. This",
+          "similarity_ratio": 0.23300970873786409,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Its job is to send the address of the next instruc-",
+          "predicted_value": "It job is to send the address of the next instrument",
+          "similarity_ratio": 0.9320388349514563,
+          "detected": 1
+        },
+        {
+          "ground_truth": "tions to be fetched and executed to the memory.",
+          "predicted_value": "states ; those, not \" connected to the bus are two",
+          "similarity_ratio": 0.4948453608247423,
+          "detected": 1
+        },
+        {
+          "ground_truth": "(4)  MAR & Memory :",
+          "predicted_value": "to- MAR & Merrowing.",
+          "similarity_ratio": 0.5128205128205128,
+          "detected": 1
+        },
+        {
+          "ground_truth": "During the fetch cycle, the MAR receives 16-bit",
+          "predicted_value": "During the Watch and the MAR receives 16-hit",
+          "similarity_ratio": 0.8351648351648352,
+          "detected": 1
+        },
+        {
+          "ground_truth": "addresses from PC . The two state MAR output then",
+          "predicted_value": "addresses \" from PC. The two stroke MAR subputs than",
+          "similarity_ratio": 0.8514851485148515,
+          "detected": 1
+        },
+        {
+          "ground_truth": "addresses memory location.",
+          "predicted_value": "addresses - memory location.",
+          "similarity_ratio": 0.9629629629629629,
+          "detected": 1
+        }
+      ],
+      "avg_accuracy": 0.7463174911903825,
+      "std_accuracy": 0.20670316931135618,
+      "avg_detection_accuracy": 1.0
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "3) Service:",
+          "predicted_value": "at America.",
+          "similarity_ratio": 0.45454545454545453,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Once a server becomes available, it immediately",
+          "predicted_value": "byback, task. \" The average service time is up",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "starts processing the next assigned job.  In",
+          "predicted_value": "fforts processing the next assigned job. In",
+          "similarity_ratio": 0.9195402298850575,
+          "detected": 1
+        },
+        {
+          "ground_truth": "practice service time are random because",
+          "predicted_value": "When the service is computed the #",
+          "similarity_ratio": 0.4594594594594595,
+          "detected": 1
+        },
+        {
+          "ground_truth": "they depend upon  amount of work required",
+          "predicted_value": "their depend upon amount of rooms required",
+          "similarity_ratio": 0.8674698795180723,
+          "detected": 1
+        },
+        {
+          "ground_truth": "by each task.  The average service time is w.",
+          "predicted_value": "byback, task. \" The average service time is up",
+          "similarity_ratio": 0.8791208791208791,
+          "detected": 1
+        },
+        {
+          "ground_truth": "It varies from server to server.",
+          "predicted_value": "# Harriet from served to sewer.",
+          "similarity_ratio": 0.7936507936507936,
+          "detected": 1
+        },
+        {
+          "ground_truth": "s(t) tells the no. of customers served by time t.",
+          "predicted_value": "gifted this. The most of customers served by turned",
+          "similarity_ratio": 0.68,
+          "detected": 1
+        },
+        {
+          "ground_truth": "w= Average  no. of customers served per minute",
+          "predicted_value": "up. Average no.of customers served per-min-",
+          "similarity_ratio": 0.8539325842696629,
+          "detected": 1
+        },
+        {
+          "ground_truth": "= E s(t)    ; t>0",
+          "predicted_value": "\" Everything to",
+          "similarity_ratio": 0.3125,
+          "detected": 1
+        },
+        {
+          "ground_truth": "t",
+          "predicted_value": "at America.",
+          "similarity_ratio": 0.16666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "4  Deprature:",
+          "predicted_value": "depirature :",
+          "similarity_ratio": 0.72,
+          "detected": 1
+        },
+        {
+          "ground_truth": "When the service is completed, the job.",
+          "predicted_value": "When the service is computed the #",
+          "similarity_ratio": 0.8767123287671232,
+          "detected": 1
+        },
+        {
+          "ground_truth": "leaves the system.",
+          "predicted_value": "leaves the system.",
+          "similarity_ratio": 1.0,
+          "detected": 1
+        }
+      ],
+      "avg_accuracy": 0.6416855911345122,
+      "std_accuracy": 0.29975248327865894,
+      "avg_detection_accuracy": 0.9285714285714286
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "classmate",
+          "predicted_value": "case 1 :",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "/* Switch or printing wee  days of a week */",
+          "predicted_value": "print ( ( \" \" The day is Mondayly, \" I",
+          "similarity_ratio": 0.4146341463414634,
+          "detected": 1
+        },
+        {
+          "ground_truth": "#include <stdio.h>",
+          "predicted_value": "Ayncude estdio,",
+          "similarity_ratio": 0.6666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "#include <conio.h>",
+          "predicted_value": "# Pincude's Compo-h.",
+          "similarity_ratio": 0.5789473684210527,
+          "detected": 1
+        },
+        {
+          "ground_truth": "int main ( ) {",
+          "predicted_value": "Putmann ( )",
+          "similarity_ratio": 0.64,
+          "detected": 1
+        },
+        {
+          "ground_truth": "int number;",
+          "predicted_value": "Pnt number ;",
+          "similarity_ratio": 0.8695652173913043,
+          "detected": 1
+        },
+        {
+          "ground_truth": "print f (\"Enter the number of the day : |n\");",
+          "predicted_value": "( \" enter the number of the day : In \" ) \"",
+          "similarity_ratio": 0.7816091954022989,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Scanf(\"%d\", &number);",
+          "predicted_value": "Pnt number ;",
+          "similarity_ratio": 0.5454545454545454,
+          "detected": 1
+        },
+        {
+          "ground_truth": "switch (number) {",
+          "predicted_value": "switch ( number )",
+          "similarity_ratio": 0.8823529411764706,
+          "detected": 1
+        },
+        {
+          "ground_truth": "case 1:",
+          "predicted_value": "case 1 :",
+          "similarity_ratio": 0.9333333333333333,
+          "detected": 1
+        },
+        {
+          "ground_truth": "print f (\"The day is Sunday\\n\");",
+          "predicted_value": "printful \" The day is Sunday (",
+          "similarity_ratio": 0.8064516129032258,
+          "detected": 1
+        },
+        {
+          "ground_truth": "case 2:",
+          "predicted_value": "case 1 :",
+          "similarity_ratio": 0.8,
+          "detected": 1
+        },
+        {
+          "ground_truth": "printf (\"The day is Monday|n\");",
+          "predicted_value": "printful \" The day is Sunday (",
+          "similarity_ratio": 0.7540983606557377,
+          "detected": 1
+        },
+        {
+          "ground_truth": "break;",
+          "predicted_value": "break ;",
+          "similarity_ratio": 0.9230769230769231,
+          "detected": 1
+        },
+        {
+          "ground_truth": "case B:",
+          "predicted_value": "case 1 :",
+          "similarity_ratio": 0.8,
+          "detected": 1
+        },
+        {
+          "ground_truth": "print f (\" The day is Tuesday\\n\");",
+          "predicted_value": "print of U\" \" The day is Tuesday ( \" ) ;",
+          "similarity_ratio": 0.8378378378378378,
+          "detected": 1
+        },
+        {
+          "ground_truth": "break;",
+          "predicted_value": "break ;",
+          "similarity_ratio": 0.9230769230769231,
+          "detected": 1
+        },
+        {
+          "ground_truth": "case 4:",
+          "predicted_value": "case 4 :",
+          "similarity_ratio": 0.9333333333333333,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Print f ( \" The day is Wednesday\\n\");",
+          "predicted_value": "print of U\" \" The day is Tuesday ( \" ) ;",
+          "similarity_ratio": 0.7532467532467533,
+          "detected": 1
+        },
+        {
+          "ground_truth": "break;",
+          "predicted_value": "break ;",
+          "similarity_ratio": 0.9230769230769231,
+          "detected": 1
+        },
+        {
+          "ground_truth": "case7:",
+          "predicted_value": "case 1 :",
+          "similarity_ratio": 0.7142857142857143,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Print f (\" The day is saturday\\n\");",
+          "predicted_value": "print of ( \" The day is saturdnight. \"",
+          "similarity_ratio": 0.7945205479452054,
+          "detected": 1
+        },
+        {
+          "ground_truth": "break;",
+          "predicted_value": "break ;",
+          "similarity_ratio": 0.9230769230769231,
+          "detected": 1
+        },
+        {
+          "ground_truth": "default:",
+          "predicted_value": "defant. \"",
+          "similarity_ratio": 0.5882352941176471,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Printf(\"Invalid number\");  }",
+          "predicted_value": "print ( \" invalid number? \" ;",
+          "similarity_ratio": 0.7368421052631579,
+          "detected": 1
+        },
+        {
+          "ground_truth": "return 0;",
+          "predicted_value": "returns",
+          "similarity_ratio": 0.75,
+          "detected": 1
+        },
+        {
+          "ground_truth": "break;",
+          "predicted_value": "break ;",
+          "similarity_ratio": 0.9230769230769231,
+          "detected": 1
+        }
+      ],
+      "avg_accuracy": 0.7480296144133468,
+      "std_accuracy": 0.19817206149639593,
+      "avg_detection_accuracy": 0.9629629629629629
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "3.3|",
+          "predicted_value": "3.3",
+          "similarity_ratio": 0.8571428571428571,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Multiple Access Technologies",
+          "predicted_value": "Multiple Access Technologies",
+          "similarity_ratio": 1.0,
+          "detected": 1
+        },
+        {
+          "ground_truth": "|-CFMA Technologies",
+          "predicted_value": "FCFMA Technologies",
+          "similarity_ratio": 0.918918918918919,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-Spectral Efficiencies",
+          "predicted_value": "1-spectural efficiencies",
+          "similarity_ratio": 0.8695652173913043,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Unit 4 |",
+          "predicted_value": "4. 1 )",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "Fundamentals of cellular communications",
+          "predicted_value": "2 1 Fundamentals of cellular communications",
+          "similarity_ratio": 0.9512195121951219,
+          "detected": 1
+        },
+        {
+          "ground_truth": "4.1 |",
+          "predicted_value": "4. 1 )",
+          "similarity_ratio": 0.7272727272727273,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Spectrum reuse and re-farming",
+          "predicted_value": "spectnum reuse and re-farming",
+          "similarity_ratio": 0.9310344827586207,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Introduction to concept of cellular communication",
+          "predicted_value": "Introduction to concept of cellular communication",
+          "similarity_ratio": 1.0,
+          "detected": 1
+        },
+        {
+          "ground_truth": "The key components of cellular communication include cell",
+          "predicted_value": "The key components of cellular communication include cel",
+          "similarity_ratio": 0.9911504424778761,
+          "detected": 1
+        },
+        {
+          "ground_truth": "sites, base stations, mobile devices, and a network of",
+          "predicted_value": "sites, bare stations, mobile devices, and a network of",
+          "similarity_ratio": 0.9814814814814815,
+          "detected": 1
+        },
+        {
+          "ground_truth": "interconnected cells.",
+          "predicted_value": "interconnected cells",
+          "similarity_ratio": 0.975609756097561,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Public telephone",
+          "predicted_value": "public telephone is",
+          "similarity_ratio": 0.8571428571428571,
+          "detected": 1
+        },
+        {
+          "ground_truth": "network",
+          "predicted_value": "pliced network",
+          "similarity_ratio": 0.6666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Mobile Switching center",
+          "predicted_value": "( mobile switching center!",
+          "similarity_ratio": 0.8571428571428571,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Mobile Switching center",
+          "predicted_value": "( mobile switching center!",
+          "similarity_ratio": 0.8571428571428571,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Fig. Cellular network Architecture",
+          "predicted_value": "Fig. Cellular Network Architecture",
+          "similarity_ratio": 0.9705882352941176,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Wired network",
+          "predicted_value": "pliced network",
+          "similarity_ratio": 0.8148148148148148,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Bye station",
+          "predicted_value": "1-spectural efficiencies",
+          "similarity_ratio": 0,
+          "detected": 0
+        }
+      ],
+      "avg_accuracy": 0.8014154570495073,
+      "std_accuracy": 0.28880345054387296,
+      "avg_detection_accuracy": 0.8947368421052632
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "Spectra refarming",
+          "predicted_value": "spected with refarming",
+          "similarity_ratio": 0.717948717948718,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Spectrum refarming is a strategic process where existing",
+          "predicted_value": "the available frequency spectrum is reused across the entire",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "frequency bands or spectrum allocations are reassigned, reor-",
+          "predicted_value": "the available frequency spectrum is reused across the entire",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "ganized, or repurposed to enhance the efficiency and perfor-",
+          "predicted_value": "\" The frequency reuse ratio (O is a measure of how efficiently",
+          "similarity_ratio": 0.4262295081967213,
+          "detected": 1
+        },
+        {
+          "ground_truth": "mance of a communication network.",
+          "predicted_value": "mance of a communication network",
+          "similarity_ratio": 0.9846153846153847,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Need for spectrum refarming :",
+          "predicted_value": "Need for spectrum refaming :",
+          "similarity_ratio": 0.9824561403508771,
+          "detected": 1
+        },
+        {
+          "ground_truth": "(i) Meet changing needs & demands .",
+          "predicted_value": "(INIMPolving network performance.",
+          "similarity_ratio": 0.4117647058823529,
+          "detected": 1
+        },
+        {
+          "ground_truth": "(ii) Transitioning from legacy Technologies:",
+          "predicted_value": "( LID Transitioning for Legacy technologies :",
+          "similarity_ratio": 0.8314606741573034,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-repurposing spectrum from older 2G networks to support",
+          "predicted_value": "Lrepurposing spechem-from older 26 networks to support",
+          "similarity_ratio": 0.8990825688073395,
+          "detected": 1
+        },
+        {
+          "ground_truth": "(iii) Addressing spectrum scarcity.",
+          "predicted_value": "first Addressing spectrum scarcity.",
+          "similarity_ratio": 0.8857142857142857,
+          "detected": 1
+        },
+        {
+          "ground_truth": "(iv) Improving Network performance.",
+          "predicted_value": "(INIMPolving network performance.",
+          "similarity_ratio": 0.7941176470588235,
+          "detected": 1
+        },
+        {
+          "ground_truth": "(v) optimize spectrum use.",
+          "predicted_value": "( VI optimize spectrum use",
+          "similarity_ratio": 0.8846153846153846,
+          "detected": 1
+        },
+        {
+          "ground_truth": "4.2 |",
+          "predicted_value": "4.21",
+          "similarity_ratio": 0.6666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "cell cluster concept",
+          "predicted_value": "Cell cluster concept",
+          "similarity_ratio": 0.95,
+          "detected": 1
+        },
+        {
+          "ground_truth": "*  concepts of cell.",
+          "predicted_value": "still concepts of cell",
+          "similarity_ratio": 0.8095238095238095,
+          "detected": 1
+        },
+        {
+          "ground_truth": "* Expansion of capacity by frequency reuse         reuse factor",
+          "predicted_value": "4 Expansion of capacity by frequency reuse!",
+          "similarity_ratio": 0.7735849056603774,
+          "detected": 1
+        },
+        {
+          "ground_truth": "capacity=Bandwidth",
+          "predicted_value": "\" Papacity - Bandwidth",
+          "similarity_ratio": 0.8,
+          "detected": 1
+        },
+        {
+          "ground_truth": "* cellular layout for frequency reuse->reuse Distance=3 x cell Radius",
+          "predicted_value": "A cellular layout for frequency sense these distance - is x cell rains",
+          "similarity_ratio": 0.7769784172661871,
+          "detected": 1
+        },
+        {
+          "ground_truth": "* Geometry of hexagonal cells.",
+          "predicted_value": "\" Geometry of hexagonal cells",
+          "similarity_ratio": 0.9491525423728814,
+          "detected": 1
+        },
+        {
+          "ground_truth": "* frequency reuse ratio.",
+          "predicted_value": "\" frequency reuse ratio.",
+          "similarity_ratio": 0.9583333333333334,
+          "detected": 1
+        },
+        {
+          "ground_truth": "- The frequency reuse ratio(Q) is a measure of how efficiently",
+          "predicted_value": "\" The frequency reuse ratio (O is a measure of how efficiently",
+          "similarity_ratio": 0.9516129032258065,
+          "detected": 1
+        },
+        {
+          "ground_truth": "the available frequency spectrum is reused across the entire",
+          "predicted_value": "the available frequency spectrum is reused across the entire",
+          "similarity_ratio": 1.0,
+          "detected": 1
+        },
+        {
+          "ground_truth": "cellular network. i.e. Q=1",
+          "predicted_value": "Cellular network... i.e. co - 1",
+          "similarity_ratio": 0.8070175438596491,
+          "detected": 1
+        },
+        {
+          "ground_truth": "N (reuse factor)",
+          "predicted_value": "reuse factor",
+          "similarity_ratio": 0.8571428571428571,
+          "detected": 1
+        },
+        {
+          "ground_truth": "4G to 5G deployments.",
+          "predicted_value": "4.6. to 56-deployments",
+          "similarity_ratio": 0.7906976744186046,
+          "detected": 1
+        }
+      ],
+      "avg_accuracy": 0.7563486268326947,
+      "std_accuracy": 0.26664947844190307,
+      "avg_detection_accuracy": 0.92
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "b) Vector can interrupt request anywhere in memory MAP.",
+          "predicted_value": "is each instruction",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "c) Resolves 8 level of interrupt priority in variety of",
+          "predicted_value": "is each instruction",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "modes such as fully rested, automatic rotation or specific",
+          "predicted_value": "obbeside the following program and write the content",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "rotation molo",
+          "predicted_value": "robatious meals.",
+          "similarity_ratio": 0.6206896551724138,
+          "detected": 1
+        },
+        {
+          "ground_truth": "d) Can mask each interrupt request individually",
+          "predicted_value": "masked infrutures",
+          "similarity_ratio": 0.4375,
+          "detected": 1
+        },
+        {
+          "ground_truth": "e) It reads the status of pending , in-service and",
+          "predicted_value": "significing is reserved. And",
+          "similarity_ratio": 0.38461538461538464,
+          "detected": 1
+        },
+        {
+          "ground_truth": "masked interrupts",
+          "predicted_value": "masked infrutures",
+          "similarity_ratio": 0.7647058823529411,
+          "detected": 1
+        },
+        {
+          "ground_truth": "f) Sets up level or edge triggered interrupt request",
+          "predicted_value": "masked infrutures",
+          "similarity_ratio": 0.34782608695652173,
+          "detected": 1
+        },
+        {
+          "ground_truth": "g) It can be expanded into 64 priority level by",
+          "predicted_value": "cascading RESGA controller",
+          "similarity_ratio": 0.3287671232876712,
+          "detected": 1
+        },
+        {
+          "ground_truth": "cascading 8259A controlle",
+          "predicted_value": "cascading RESGA controller",
+          "similarity_ratio": 0.8235294117647058,
+          "detected": 1
+        },
+        {
+          "ground_truth": "o  Observe the following program and write the content",
+          "predicted_value": "obbeside the following program and write the content",
+          "similarity_ratio": 0.9056603773584906,
+          "detected": 1
+        },
+        {
+          "ground_truth": "of Accumulator , register B and  flags ate execution",
+          "predicted_value": "Before execution at following codes",
+          "similarity_ratio": 0.3218390804597701,
+          "detected": 1
+        },
+        {
+          "ground_truth": "of each instruction",
+          "predicted_value": "is each instruction",
+          "similarity_ratio": 0.8947368421052632,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Before execution of following coders ",
+          "predicted_value": "Before execution at following codes",
+          "similarity_ratio": 0.9166666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "A   B       S    Z   A C    P   C Y",
+          "predicted_value": "obbeside the following program and write the content",
+          "similarity_ratio": 0.16091954022988506,
+          "detected": 1
+        },
+        {
+          "ground_truth": "00      00               Reset",
+          "predicted_value": "reset.",
+          "similarity_ratio": 0.2222222222222222,
+          "detected": 1
+        },
+        {
+          "ground_truth": "MVI A  45H         A = 45   B=000",
+          "predicted_value": "obbeside the following program and write the content",
+          "similarity_ratio": 0.16470588235294117,
+          "detected": 1
+        },
+        {
+          "ground_truth": "MVI B  C6H         A=45  , B=066",
+          "predicted_value": "obbeside the following program and write the content",
+          "similarity_ratio": 0.16666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "ADD B                  A= AB  , B=66      Sign flag  is set",
+          "predicted_value": "significing issues.",
+          "similarity_ratio": 0.2564102564102564,
+          "detected": 1
+        },
+        {
+          "ground_truth": "ANI 63H              A = 23  , B=66      Sign flag  is reset Aux f",
+          "predicted_value": "significing is reserved. And",
+          "similarity_ratio": 0.3191489361702128,
+          "detected": 1
+        },
+        {
+          "ground_truth": "HLT                       A = 23  , B=66",
+          "predicted_value": "obbeside the following program and write the content",
+          "similarity_ratio": 0.15217391304347827,
+          "detected": 1
+        }
+      ],
+      "avg_accuracy": 0.38994209180169015,
+      "std_accuracy": 0.30150903284919794,
+      "avg_detection_accuracy": 0.8571428571428571
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "Numerical parts",
+          "predicted_value": "morningsically",
+          "similarity_ratio": 0.41379310344827586,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Given a graph",
+          "predicted_value": "management and process.",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "Compute all the all pair shortest path in this",
+          "predicted_value": "management and process.",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "graph",
+          "predicted_value": "groupsist.",
+          "similarity_ratio": 0.4,
+          "detected": 1
+        },
+        {
+          "ground_truth": "The weight adjacency matrix",
+          "predicted_value": "egg ex-",
+          "similarity_ratio": 0.29411764705882354,
+          "detected": 1
+        },
+        {
+          "ground_truth": "0         1       2     3",
+          "predicted_value": "to\" I.I.O., MAN (O (059, D\" (4",
+          "similarity_ratio": 0.21818181818181817,
+          "detected": 1
+        },
+        {
+          "ground_truth": "W       D         A       B     C",
+          "predicted_value": "to\" I.I.O., MAN (O (059, D\" (4",
+          "similarity_ratio": 0.2222222222222222,
+          "detected": 1
+        },
+        {
+          "ground_truth": "1   A         0       4     11",
+          "predicted_value": "to\" I.I.O., MAN (O (059, D\" (4",
+          "similarity_ratio": 0.3,
+          "detected": 1
+        },
+        {
+          "ground_truth": "2   B         6       0     2",
+          "predicted_value": "to\" I.I.O., MAN (O (059, D\" (4",
+          "similarity_ratio": 0.23728813559322035,
+          "detected": 1
+        },
+        {
+          "ground_truth": "3   C         3              0",
+          "predicted_value": "to\" I.I.O., MAN (O (059, D\" (4",
+          "similarity_ratio": 0.16666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Compute the D1",
+          "predicted_value": "clamplike the D'",
+          "similarity_ratio": 0.6,
+          "detected": 1
+        },
+        {
+          "ground_truth": "D 1(1,2) = min[D0(1,2), D0(1,1) + D0(1,2)]",
+          "predicted_value": "to\" I.I.O., MAN (O (059, D\" (4",
+          "similarity_ratio": 0.2777777777777778,
+          "detected": 1
+        },
+        {
+          "ground_truth": "= min(4 , 0+4)",
+          "predicted_value": "minning # 4",
+          "similarity_ratio": 0.48,
+          "detected": 1
+        },
+        {
+          "ground_truth": "=   min (4,4)   =>  4",
+          "predicted_value": "minning # 4",
+          "similarity_ratio": 0.375,
+          "detected": 1
+        },
+        {
+          "ground_truth": "D1(1,3)  = min[D0(1,3) , D0(1,1)+D0(1,3)]",
+          "predicted_value": "to\" I.I.O., MAN (O (059, D\" (4",
+          "similarity_ratio": 0.19718309859154928,
+          "detected": 1
+        },
+        {
+          "ground_truth": "=  min (11, 0+11]",
+          "predicted_value": "minning # 4",
+          "similarity_ratio": 0.35714285714285715,
+          "detected": 1
+        },
+        {
+          "ground_truth": "=  min (11,11) = 11",
+          "predicted_value": "minning # 4",
+          "similarity_ratio": 0.3333333333333333,
+          "detected": 1
+        },
+        {
+          "ground_truth": "D1(2,1)=  min[(D0(2,1) , D0(2,1)+D0(1,1)]",
+          "predicted_value": "to\" I.I.O., MAN (O (059, D\" (4",
+          "similarity_ratio": 0.19718309859154928,
+          "detected": 1
+        },
+        {
+          "ground_truth": "=  mm [ 0,6+0]",
+          "predicted_value": "cumm feel, others.",
+          "similarity_ratio": 0.25,
+          "detected": 1
+        },
+        {
+          "ground_truth": "=6",
+          "predicted_value": "management and process.",
+          "similarity_ratio": 0.0,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Downloaded from CSIT Tutor",
+          "predicted_value": "unemployment of",
+          "similarity_ratio": 0,
+          "detected": 0
+        }
+      ],
+      "avg_accuracy": 0.25332808374324256,
+      "std_accuracy": 0.1585998074657511,
+      "avg_detection_accuracy": 0.8571428571428571
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "Navneet",
+          "predicted_value": "we get. A.1",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "an= A1r1n + A2r2n",
+          "predicted_value": "Fans Allen 4.A 23\"",
+          "similarity_ratio": 0.45714285714285713,
+          "detected": 1
+        },
+        {
+          "ground_truth": "where, A1 and A2 are scalar",
+          "predicted_value": "where, A and As one scalar",
+          "similarity_ratio": 0.8679245283018868,
+          "detected": 1
+        },
+        {
+          "ground_truth": "or,  an= A1 2n + A2 3n",
+          "predicted_value": "where, A and As one scalar",
+          "similarity_ratio": 0.4583333333333333,
+          "detected": 1
+        },
+        {
+          "ground_truth": "|an= A12n +A23n | - (i)",
+          "predicted_value": "Fans Allen 4.A 23\"",
+          "similarity_ratio": 0.43902439024390244,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Given initial conditions.",
+          "predicted_value": "\" seven initial conditions.",
+          "similarity_ratio": 0.8846153846153846,
+          "detected": 1
+        },
+        {
+          "ground_truth": "a0=1    n=0",
+          "predicted_value": "a, c. Angel 4.A2B.,",
+          "similarity_ratio": 0.26666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "a0= A1 20 + A230",
+          "predicted_value": "ao-A120-A280",
+          "similarity_ratio": 0.5714285714285714,
+          "detected": 1
+        },
+        {
+          "ground_truth": "1 =  A1+A2",
+          "predicted_value": "is A14642",
+          "similarity_ratio": 0.42105263157894735,
+          "detected": 1
+        },
+        {
+          "ground_truth": " A1+A2 = 1 - (ii)",
+          "predicted_value": "2' AT. 3A. - - - CIPP",
+          "similarity_ratio": 0.3157894736842105,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Also,  a1=2    n=1",
+          "predicted_value": "is A14642",
+          "similarity_ratio": 0.2962962962962963,
+          "detected": 1
+        },
+        {
+          "ground_truth": "a1=  A121+A231",
+          "predicted_value": "ao-A120-A280",
+          "similarity_ratio": 0.46153846153846156,
+          "detected": 1
+        },
+        {
+          "ground_truth": "2A1 + 3A2 = 2 - (iii)",
+          "predicted_value": "2' AT. 3A. - - - CIPP",
+          "similarity_ratio": 0.38095238095238093,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Solving Eqns (ii) and (iii)",
+          "predicted_value": "Serving bans ( I.I ) and ( I )",
+          "similarity_ratio": 0.631578947368421,
+          "detected": 1
+        },
+        {
+          "ground_truth": "@a1 +3A2 = 2",
+          "predicted_value": "Fans Allen 4.A 23\"",
+          "similarity_ratio": 0.4,
+          "detected": 1
+        },
+        {
+          "ground_truth": "- 2A1 - 2A2 = -2",
+          "predicted_value": "2A.-A.-2",
+          "similarity_ratio": 0.5,
+          "detected": 1
+        },
+        {
+          "ground_truth": "A2=0",
+          "predicted_value": "ao-A120-A280",
+          "similarity_ratio": 0.375,
+          "detected": 1
+        },
+        {
+          "ground_truth": "A1+0=1",
+          "predicted_value": "ao-A120-A280",
+          "similarity_ratio": 0.3333333333333333,
+          "detected": 1
+        },
+        {
+          "ground_truth": "A1= 1        We get,  A1=1",
+          "predicted_value": "we get. A.1",
+          "similarity_ratio": 0.43243243243243246,
+          "detected": 1
+        },
+        {
+          "ground_truth": "A2=0",
+          "predicted_value": "ao-A120-A280",
+          "similarity_ratio": 0.375,
+          "detected": 1
+        }
+      ],
+      "avg_accuracy": 0.44340548444585437,
+      "std_accuracy": 0.19030176399991325,
+      "avg_detection_accuracy": 0.95
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "Given state space.",
+          "predicted_value": "driven state space.",
+          "similarity_ratio": 0.918918918918919,
+          "detected": 1
+        },
+        {
+          "ground_truth": "B",
+          "predicted_value": "( SABETC",
+          "similarity_ratio": 0.2222222222222222,
+          "detected": 1
+        },
+        {
+          "ground_truth": "E",
+          "predicted_value": "( SABETC",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "I",
+          "predicted_value": "page I",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "A",
+          "predicted_value": "( SABETC",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "C",
+          "predicted_value": "( SABETC",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "F",
+          "predicted_value": "driven state space.",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "K",
+          "predicted_value": "Atypatory E.S.I.S.K.",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "level=0",
+          "predicted_value": "levels y",
+          "similarity_ratio": 0.6666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "J",
+          "predicted_value": "driven state space.",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "level=4",
+          "predicted_value": "levels y",
+          "similarity_ratio": 0.6666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "D",
+          "predicted_value": "Depth limited search",
+          "similarity_ratio": 0.09523809523809523,
+          "detected": 1
+        },
+        {
+          "ground_truth": "G",
+          "predicted_value": "driven state space.",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "level=3",
+          "predicted_value": "levels y",
+          "similarity_ratio": 0.6666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "level=1    level=2",
+          "predicted_value": "levels 2",
+          "similarity_ratio": 0.5384615384615384,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Depth limited search",
+          "predicted_value": "Depth limited search",
+          "similarity_ratio": 1.0,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Let us assume that depth=4 and source=A",
+          "predicted_value": "Let us assume that depth - 4 and some - A",
+          "similarity_ratio": 0.85,
+          "detected": 1
+        },
+        {
+          "ground_truth": "limit        destination=K",
+          "predicted_value": "destination sk",
+          "similarity_ratio": 0.55,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Since, depth limited search is modified",
+          "predicted_value": "Since depth limited search is modified",
+          "similarity_ratio": 0.987012987012987,
+          "detected": 1
+        },
+        {
+          "ground_truth": "version of depth first search. So let's use a",
+          "predicted_value": "\" Version of depth first search, so, let's use a",
+          "similarity_ratio": 0.9032258064516129,
+          "detected": 1
+        },
+        {
+          "ground_truth": "stack",
+          "predicted_value": "s Abeck.",
+          "similarity_ratio": 0.46153846153846156,
+          "detected": 1
+        },
+        {
+          "ground_truth": "| B |      | E |       |I |",
+          "predicted_value": "Let us assume that depth - 4 and some - A",
+          "similarity_ratio": 0.29411764705882354,
+          "detected": 1
+        },
+        {
+          "ground_truth": "=>  A  |  | => AB  | C | =>ABE | C |",
+          "predicted_value": "( SABETC",
+          "similarity_ratio": 0.22727272727272727,
+          "detected": 1
+        },
+        {
+          "ground_truth": "| A |      | D |      | D |      | D |",
+          "predicted_value": "\" Version of depth first search, so, let's use a",
+          "similarity_ratio": 0.20930232558139536,
+          "detected": 1
+        },
+        {
+          "ground_truth": "ABEI | K |",
+          "predicted_value": "( SABETC",
+          "similarity_ratio": 0.3333333333333333,
+          "detected": 1
+        },
+        {
+          "ground_truth": "| C |    =>   ABEIK | C |",
+          "predicted_value": "Let us assume that depth - 4 and some - A",
+          "similarity_ratio": 0.30303030303030304,
+          "detected": 1
+        },
+        {
+          "ground_truth": "| D |                        | D |",
+          "predicted_value": "Let us assume that depth - 4 and some - A",
+          "similarity_ratio": 0.26666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Hence, by using depth limited search, the",
+          "predicted_value": "Hepley by using depth finished season. One",
+          "similarity_ratio": 0.6987951807228916,
+          "detected": 1
+        },
+        {
+          "ground_truth": "path from source to destination is",
+          "predicted_value": "destination sk",
+          "similarity_ratio": 0.5416666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "A->B-> E->I-> K",
+          "predicted_value": "Atypatory E.S.I.S.K.",
+          "similarity_ratio": 0.2857142857142857,
+          "detected": 1
+        },
+        {
+          "ground_truth": "classmate",
+          "predicted_value": "classmate",
+          "similarity_ratio": 1.0,
+          "detected": 1
+        },
+        {
+          "ground_truth": "PAGE",
+          "predicted_value": "( SABETC",
+          "similarity_ratio": 0.3333333333333333,
+          "detected": 1
+        }
+      ],
+      "avg_accuracy": 0.40687032810075824,
+      "std_accuracy": 0.33945056400113477,
+      "avg_detection_accuracy": 0.75
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "*  I/O vs Memory Bus:",
+          "predicted_value": "a. 110 vs Memory Bus :",
+          "similarity_ratio": 0.7441860465116279,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Following are the three ways that computer buses can be used",
+          "predicted_value": "2 The negotiator device register is a \" if",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "to communicate with memory and I/O.",
+          "predicted_value": "& Isolated TO vs Memory-Mapped I )O :",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "a). Use two seperate buses, one for memory and another for I/O.",
+          "predicted_value": "& Isolated TO vs Memory-Mapped I )O :",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "b). Use one common bus for both memory and I/O but have seperate",
+          "predicted_value": "& Isolated TO vs Memory-Mapped I )O :",
+          "similarity_ratio": 0.37623762376237624,
+          "detected": 1
+        },
+        {
+          "ground_truth": "control lines for each.",
+          "predicted_value": "control lines for each.",
+          "similarity_ratio": 1.0,
+          "detected": 1
+        },
+        {
+          "ground_truth": "c). Use one common bus for memory and I/O with common control line.",
+          "predicted_value": "& Isolated TO vs Memory-Mapped I )O :",
+          "similarity_ratio": 0.36538461538461536,
+          "detected": 1
+        },
+        {
+          "ground_truth": "* Isolated I/O vs Memory-Mapped I/O:",
+          "predicted_value": "& Isolated TO vs Memory-Mapped I )O :",
+          "similarity_ratio": 0.8767123287671232,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Isolated I/O",
+          "predicted_value": "isoluted 1/0",
+          "similarity_ratio": 0.6666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> CPU has distinct input and output as well as memory instruction.",
+          "predicted_value": "7 CPU has distinct input and output as well as memory restriction.",
+          "similarity_ratio": 0.9323308270676691,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> Distinct address space for I/O and memory operation.",
+          "predicted_value": "Address space for memory",
+          "similarity_ratio": 0.5822784810126582,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Address space for I/O",
+          "predicted_value": "Address space for I/O",
+          "similarity_ratio": 1.0,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Address space for memory.",
+          "predicted_value": "Address space for memory",
+          "similarity_ratio": 0.9795918367346939,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> The register device register is 8-bit.",
+          "predicted_value": "7 The device register is 16-brif",
+          "similarity_ratio": 0.7397260273972602,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> For application address space complete 1MB memory is allowed.",
+          "predicted_value": "Address space for memory",
+          "similarity_ratio": 0.4772727272727273,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> Maximum number of I/O devices are 256.",
+          "predicted_value": "3 Maximum number of 170 devices are 256",
+          "similarity_ratio": 0.875,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Memory-Mapped I/O",
+          "predicted_value": "Memory-Mapped I )O",
+          "similarity_ratio": 0.9142857142857143,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> No distinct I/O and memory instruction.",
+          "predicted_value": "7 CPU has distinct input and output as well as memory restriction.",
+          "similarity_ratio": 0.5925925925925926,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> No distinct address space.",
+          "predicted_value": "3 No distinct address space",
+          "similarity_ratio": 0.9285714285714286,
+          "detected": 1
+        },
+        {
+          "ground_truth": "I/O",
+          "predicted_value": "Address space for I/O",
+          "similarity_ratio": 0.25,
+          "detected": 1
+        },
+        {
+          "ground_truth": "address space .",
+          "predicted_value": "taddress space",
+          "similarity_ratio": 0.896551724137931,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> The device register is 16-bit.",
+          "predicted_value": "7 The device register is 16-brif",
+          "similarity_ratio": 0.8923076923076924,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> It takes only some part of memory not complete 1MB memory.",
+          "predicted_value": "Address space for memory",
+          "similarity_ratio": 0.35294117647058826,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> Maximum number of I/O devices are 65536.",
+          "predicted_value": "( Maximum number of 110 devices are 6553/6.",
+          "similarity_ratio": 0.8837209302325582,
+          "detected": 1
+        }
+      ],
+      "avg_accuracy": 0.6385982682989968,
+      "std_accuracy": 0.3278993725995992,
+      "avg_detection_accuracy": 0.875
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "10. Write a program in c to make such a pattern",
+          "predicted_value": "prom in a to make such a patte",
+          "similarity_ratio": 0.7532467532467533,
+          "detected": 1
+        },
+        {
+          "ground_truth": "1",
+          "predicted_value": "int I. I.space, num. 1,",
+          "similarity_ratio": 0.08333333333333333,
+          "detected": 1
+        },
+        {
+          "ground_truth": "2   3",
+          "predicted_value": "printec \" \" \"",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "4   5   6",
+          "predicted_value": "prom in a to make such a patte",
+          "similarity_ratio": 0.3076923076923077,
+          "detected": 1
+        },
+        {
+          "ground_truth": "7   8   9   10",
+          "predicted_value": "\" Forlspace, if space - 3 ; space # t )",
+          "similarity_ratio": 0.33962264150943394,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Source code :",
+          "predicted_value": "source code :",
+          "similarity_ratio": 0.9230769230769231,
+          "detected": 1
+        },
+        {
+          "ground_truth": "#include<stdio.h>",
+          "predicted_value": "mincludekstdio,hy",
+          "similarity_ratio": 0.7647058823529411,
+          "detected": 1
+        },
+        {
+          "ground_truth": "void main()",
+          "predicted_value": "void-mained",
+          "similarity_ratio": 0.7272727272727273,
+          "detected": 1
+        },
+        {
+          "ground_truth": "int i,j , space , num = 1;",
+          "predicted_value": "int I. I.space, num. 1,",
+          "similarity_ratio": 0.6938775510204082,
+          "detected": 1
+        },
+        {
+          "ground_truth": "for(i=1 ; i<=4; i++)",
+          "predicted_value": "forlissibility it try",
+          "similarity_ratio": 0.34146341463414637,
+          "detected": 1
+        },
+        {
+          "ground_truth": "for ( space = i; space <= s; space++)",
+          "predicted_value": "\" Forlspace, if space - 3 ; space # t )",
+          "similarity_ratio": 0.5789473684210527,
+          "detected": 1
+        },
+        {
+          "ground_truth": "printf(\" \");",
+          "predicted_value": "printec \" \" \"",
+          "similarity_ratio": 0.64,
+          "detected": 1
+        },
+        {
+          "ground_truth": "for ( j=1 ; j<=i; j++)",
+          "predicted_value": "\" Forlspace, if space - 3 ; space # t )",
+          "similarity_ratio": 0.29508196721311475,
+          "detected": 1
+        },
+        {
+          "ground_truth": "printf(\"%d\", num);",
+          "predicted_value": "\" principally. d\" \", num ),",
+          "similarity_ratio": 0.5333333333333333,
+          "detected": 1
+        },
+        {
+          "ground_truth": "num++;",
+          "predicted_value": "numetti",
+          "similarity_ratio": 0.46153846153846156,
+          "detected": 1
+        },
+        {
+          "ground_truth": "printf(\"\\n\");",
+          "predicted_value": "printec \" \" \"",
+          "similarity_ratio": 0.5384615384615384,
+          "detected": 1
+        }
+      ],
+      "avg_accuracy": 0.4988533876941547,
+      "std_accuracy": 0.24821354851216385,
+      "avg_detection_accuracy": 0.9375
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "Notes",
+          "predicted_value": "foldey.",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "Note",
+          "predicted_value": "foldey.",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "Test in Postman:",
+          "predicted_value": "Test in Post-mania",
+          "similarity_ratio": 0.8823529411764706,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> Putting validation in reques",
+          "predicted_value": "Putting validation in regards",
+          "similarity_ratio": 0.8333333333333334,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> Request can have many validation.",
+          "predicted_value": "result can have meaningfulists.",
+          "similarity_ratio": 0.5970149253731343,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> Test are written in Javascript",
+          "predicted_value": "Test are written in Parliament",
+          "similarity_ratio": 0.7619047619047619,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> Test can be added collection, request,",
+          "predicted_value": "\" Just can be added to the chinnement",
+          "similarity_ratio": 0.5384615384615384,
+          "detected": 1
+        },
+        {
+          "ground_truth": "folder .",
+          "predicted_value": "foldey.",
+          "similarity_ratio": 0.8,
+          "detected": 1
+        },
+        {
+          "ground_truth": "UI in country->big",
+          "predicted_value": "VI in country,, being",
+          "similarity_ratio": 0.7692307692307693,
+          "detected": 1
+        }
+      ],
+      "avg_accuracy": 0.575810918831112,
+      "std_accuracy": 0.3244738854594237,
+      "avg_detection_accuracy": 0.7777777777777778
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "Notes",
+          "predicted_value": "Random test data.",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "Estimated",
+          "predicted_value": "postman use :",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "QA Engineering",
+          "predicted_value": "than interaction x",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "Manual",
+          "predicted_value": "postman use :",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "Jenk",
+          "predicted_value": "regional which kind of",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "-> User agent (Who is making",
+          "predicted_value": "Use agent ( who is making",
+          "similarity_ratio": 0.8679245283018868,
+          "detected": 1
+        },
+        {
+          "ground_truth": "req and which kind of",
+          "predicted_value": "regional which kind of",
+          "similarity_ratio": 0.7906976744186046,
+          "detected": 1
+        },
+        {
+          "ground_truth": "responses are accepted )",
+          "predicted_value": "misposes are accepted.",
+          "similarity_ratio": 0.8260869565217391,
+          "detected": 1
+        },
+        {
+          "ground_truth": "JSON  format",
+          "predicted_value": "JSON format.",
+          "similarity_ratio": 0.9166666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> key value",
+          "predicted_value": "keepy-value.",
+          "similarity_ratio": 0.6666666666666666,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> used to send data",
+          "predicted_value": "is well to send data.",
+          "similarity_ratio": 0.7317073170731707,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Random test data",
+          "predicted_value": "Random test data.",
+          "similarity_ratio": 0.9696969696969697,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Postman use :",
+          "predicted_value": "postman use :",
+          "similarity_ratio": 0.9230769230769231,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Communicate with APIs",
+          "predicted_value": "appreciate with APIS",
+          "similarity_ratio": 0.6341463414634146,
+          "detected": 1
+        },
+        {
+          "ground_truth": "User interaction X",
+          "predicted_value": "than interaction x",
+          "similarity_ratio": 0.7222222222222222,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Performance testing X",
+          "predicted_value": "Performance testing.",
+          "similarity_ratio": 0.926829268292683,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Security testing x",
+          "predicted_value": "Security testing x",
+          "similarity_ratio": 1.0,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Viewing existing orders:",
+          "predicted_value": "viewing exciting orders :",
+          "similarity_ratio": 0.8979591836734694,
+          "detected": 1
+        }
+      ],
+      "avg_accuracy": 0.6040933732263565,
+      "std_accuracy": 0.3868525230292852,
+      "avg_detection_accuracy": 0.7222222222222222
+    },
+    {
+      "sentence_evaluation": [
+        {
+          "ground_truth": "Memo No.",
+          "predicted_value": "people pro",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "Date",
+          "predicted_value": "\" What,",
+          "similarity_ratio": 0,
+          "detected": 0
+        },
+        {
+          "ground_truth": "NIP Resource    Restricted",
+          "predicted_value": "\" Courage's unire-nosed",
+          "similarity_ratio": 0.3673469387755102,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Google Pro -     -> short",
+          "predicted_value": "people pro",
+          "similarity_ratio": 0.34285714285714286,
+          "detected": 1
+        },
+        {
+          "ground_truth": "- offline video",
+          "predicted_value": "offcome video",
+          "similarity_ratio": 0.7142857142857143,
+          "detected": 1
+        },
+        {
+          "ground_truth": "- video",
+          "predicted_value": "offcome video",
+          "similarity_ratio": 0.6,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> Remove background in while board",
+          "predicted_value": "spremone background in white board",
+          "similarity_ratio": 0.8405797101449275,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> work in video",
+          "predicted_value": "sworrin video",
+          "similarity_ratio": 0.7586206896551724,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> Rename it",
+          "predicted_value": "spename it.",
+          "similarity_ratio": 0.6956521739130435,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> Deow cospaces",
+          "predicted_value": "systemous companies",
+          "similarity_ratio": 0.5142857142857142,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Covas  -> whiteboard",
+          "predicted_value": "spremone background in white board",
+          "similarity_ratio": 0.5185185185185185,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> Theme -> dark",
+          "predicted_value": "# reassigned last in decree",
+          "similarity_ratio": 0.32558139534883723,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> Cov end device->",
+          "predicted_value": "graved device.",
+          "similarity_ratio": 0.6060606060606061,
+          "detected": 1
+        },
+        {
+          "ground_truth": "-> auto assign -> test in devoa",
+          "predicted_value": "# reassigned last in decree",
+          "similarity_ratio": 0.5517241379310345,
+          "detected": 1
+        },
+        {
+          "ground_truth": "Ceam",
+          "predicted_value": "( team.",
+          "similarity_ratio": 0.5454545454545454,
+          "detected": 1
+        }
+      ],
+      "avg_accuracy": 0.4920644858153845,
+      "std_accuracy": 0.2401919632461998,
+      "avg_detection_accuracy": 0.8666666666666667
+    }
+  ]
+}
