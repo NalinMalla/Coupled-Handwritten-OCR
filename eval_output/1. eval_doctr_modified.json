@@ -1,5 +1,5 @@
 {
-  "detection_model": "doctr_detection",
+  "ocr_model": "doctr_modified",
   "recognition_model": "Microsoft/TrOCR",
   "ocr_accuracy": 0.6420401577058231,
   "standard_deviation": 0.18829480099898568,

@@ -1,6 +1,5 @@
 {
-  "detection_model": "paddle_detection",
-  "recognition_model": "paddle_recognition",
+  "ocr_model": "paddle_original",
   "ocr_accuracy": 0.35546925379349187,
   "standard_deviation": 0.1731758483063264,
   "detection_accuracy": 0.7316459303019452,

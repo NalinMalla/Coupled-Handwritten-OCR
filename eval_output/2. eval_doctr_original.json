@@ -1,6 +1,5 @@
 {
-  "detection_model": "doctr_detection",
-  "recognition_model": "doctr_recognition",
+  "ocr_model": "doctr_original",
   "ocr_accuracy": 0.41728524260814537,
   "standard_deviation": 0.14005097454832754,
   "detection_accuracy": 0.9712301587301588,

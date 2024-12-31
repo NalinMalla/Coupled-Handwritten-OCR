@@ -1,6 +1,5 @@
 {
-  "detection_model": "custom_paddle_detection",
-  "recognition_model": "Microsoft/TrOCR",
+  "ocr_model": "custom_trained_paddle",
   "ocr_accuracy": 0.5711973716127139,
   "standard_deviation": 0.2698266503024897,
   "detection_accuracy": 0.878551686756574,

@@ -1,6 +1,5 @@
 {
-  "detection_model": "pytesseract_detection",
-  "recognition_model": "Microsoft/TrOCR",
+  "ocr_model": "pytesseract_modified",
   "ocr_accuracy": 0.2719583743198013,
   "standard_deviation": 0.1956385622832188,
   "detection_accuracy": 0.509578783267693,

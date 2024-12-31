@@ -1,6 +1,5 @@
 {
-  "detection_model": "pytesseract_detection",
-  "recognition_model": "pytesseract_recognition",
+  "ocr_model": "pytesseract_original",
   "ocr_accuracy": 0.16537613004609317,
   "standard_deviation": 0.0958193531655412,
   "detection_accuracy": 0.509578783267693,
